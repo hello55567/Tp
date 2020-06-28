@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeenPatti.DataContracts", "TeenPatti.DataContracts\TeenPatti.DataContracts.csproj", "{589F1C3C-8AF2-49B0-A00D-68EB4EE2246D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeenPatti.Server", "TeenPatti.Server\TeenPatti.Server.csproj", "{26222653-6531-4BDB-8033-D4B910276D45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{859F7344-74D2-4E5B-A6A2-D705AA43C60F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{B39AFDE7-947F-4448-9E94-57A9040544AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeenPatti.InMemoryDB", "TeenPatti.InMemoryDB\TeenPatti.InMemoryDB.csproj", "{DB2FF572-056F-4285-8B57-F3EDC3D69983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeenPatti.Infrastructure", "TeenPatti.Infrastructure\TeenPatti.Infrastructure.csproj", "{67CA9F70-5AF9-4CE6-A598-7F6D13E976A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeenPatti.AppacitiveDB", "TeenPatti.Appacitive\TeenPatti.AppacitiveDB.csproj", "{5ABC44DC-352B-4359-908B-7765EE17720D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeenPatti.Model", "TeenPatti.Model\TeenPatti.Model.csproj", "{18A08208-A978-4793-B175-847A397ADD08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeenPatti.Translators", "TeenPatti.Translators\TeenPatti.Translators.csproj", "{EA1F588B-C56D-486E-BD31-24F4566D7056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeenPatti.DataAccess", "TeenPatti.DataAccess\TeenPatti.DataAccess.csproj", "{AAC15F3A-6B11-422A-A1A4-E9DA555DB452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeenPatti.Managers", "TeenPatti.Manager\TeenPatti.Managers.csproj", "{CE3A6183-545D-4CC2-AA6B-753C0967E1B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{589F1C3C-8AF2-49B0-A00D-68EB4EE2246D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589F1C3C-8AF2-49B0-A00D-68EB4EE2246D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589F1C3C-8AF2-49B0-A00D-68EB4EE2246D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589F1C3C-8AF2-49B0-A00D-68EB4EE2246D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26222653-6531-4BDB-8033-D4B910276D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26222653-6531-4BDB-8033-D4B910276D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26222653-6531-4BDB-8033-D4B910276D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26222653-6531-4BDB-8033-D4B910276D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2FF572-056F-4285-8B57-F3EDC3D69983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2FF572-056F-4285-8B57-F3EDC3D69983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2FF572-056F-4285-8B57-F3EDC3D69983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2FF572-056F-4285-8B57-F3EDC3D69983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CA9F70-5AF9-4CE6-A598-7F6D13E976A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CA9F70-5AF9-4CE6-A598-7F6D13E976A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CA9F70-5AF9-4CE6-A598-7F6D13E976A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CA9F70-5AF9-4CE6-A598-7F6D13E976A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ABC44DC-352B-4359-908B-7765EE17720D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABC44DC-352B-4359-908B-7765EE17720D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABC44DC-352B-4359-908B-7765EE17720D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABC44DC-352B-4359-908B-7765EE17720D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A08208-A978-4793-B175-847A397ADD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A08208-A978-4793-B175-847A397ADD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A08208-A978-4793-B175-847A397ADD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A08208-A978-4793-B175-847A397ADD08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1F588B-C56D-486E-BD31-24F4566D7056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1F588B-C56D-486E-BD31-24F4566D7056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1F588B-C56D-486E-BD31-24F4566D7056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1F588B-C56D-486E-BD31-24F4566D7056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC15F3A-6B11-422A-A1A4-E9DA555DB452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC15F3A-6B11-422A-A1A4-E9DA555DB452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC15F3A-6B11-422A-A1A4-E9DA555DB452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC15F3A-6B11-422A-A1A4-E9DA555DB452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE3A6183-545D-4CC2-AA6B-753C0967E1B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3A6183-545D-4CC2-AA6B-753C0967E1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3A6183-545D-4CC2-AA6B-753C0967E1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3A6183-545D-4CC2-AA6B-753C0967E1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB2FF572-056F-4285-8B57-F3EDC3D69983} = {B39AFDE7-947F-4448-9E94-57A9040544AC}
+		{5ABC44DC-352B-4359-908B-7765EE17720D} = {B39AFDE7-947F-4448-9E94-57A9040544AC}
+	EndGlobalSection
+EndGlobal
